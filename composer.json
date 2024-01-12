@@ -1,19 +1,23 @@
 {
-    "name": "kreativekorp/barcode",
+    "name": "apirone/php-qr-code",
     "type": "library",
-    "description": "Generate barcodes from a single PHP file.",
-    "homepage": "https://github.com/kreativekorp/barcode/",
+    "description": "Generate QR-codes from a single PHP file.",
+    "homepage": "https://github.com/apirone/php-qr-code/",
     "license": [
       "MIT"
     ],
     "authors": [
         {
-            "name": "Kreative Software",
-            "email": "support@kreativekorp.com",
-            "homepage": "http://www.kreativekorp.com"
+            "name": "Alex Zaytseff",
+            "email": "alex.zaytseff@gmail.com"
         }
     ],
     "autoload": {
-        "classmap": ["barcode.php"]
+        "psr-4": {
+            "Apirone\\Lib\\PhpQRCode\\": "src/"
+        }
+    },
+    "require": {
+        "ext-gd": "*"
     }
 }
