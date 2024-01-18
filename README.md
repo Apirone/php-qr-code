@@ -111,13 +111,13 @@ Call methods without params to clear options value.
 
 * `data($data = '')` - Set QR code data
 * `options($options = [])` - Set QR code options
-* `size()` - Generated image size. Sets both `h` and `w` options to the same value.
-* `scale()` - Set `sf` option value.
-* `padding()` - Set `p` option.
-* `color()`  - Set `fc` option.
-* `background()` - Set `bc` option.
-* `quietZone()` - Set `wq` option.
-* `density()` - Set `md` option.
+* `size($size = null)` - Generated image size. Sets both `h` and `w` options to the same value.
+* `scale($scale = null)` - Set `sf` option value.
+* `padding($padding = null)` - Set `p` option.
+* `color($color = null)`  - Set `fc` option.
+* `background($color = null)` - Set `bc` option.
+* `quietZone($size = null)` - Set `wq` option.
+* `density($density = null)` - Set `md` option.
 
 ### Generate QR methods
 * `render_image()` - Return generated GD resource.

@@ -70,6 +70,7 @@ echo sprintf('<img src="%s">', QRCode::init($data)
     ->background('dddddd')
     ->color('ff00ff')
     ->padding(20)
+    ->scale(8)
     ->base64());
 ?>
 
