@@ -6,3 +6,5 @@
 .php-cs-fixer.cache
 composer.lock
 vendor
+examples/*
+!examples/index.php
