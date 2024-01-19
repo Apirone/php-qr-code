@@ -1,0 +1,10 @@
+/.docker/log/*
+/*.env
+/*.yml
+.vscode
+.idea
+.php-cs-fixer.cache
+composer.lock
+vendor
+examples/*
+!examples/index.php
